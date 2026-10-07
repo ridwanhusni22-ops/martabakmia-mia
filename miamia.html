@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martabak Mia-Mia | Rasa yang bertahan, sejak 2015</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+        body { font-family: 'Poppins', sans-serif; }
+        .bg-primary { background-color: #FACC15; }
+        .text-primary { color: #FACC15; }
+        .bg-secondary { background-color: #451A03; }
+        .text-secondary { color: #451A03; }
+    </style>
+</head>
+<body class="bg-orange-50 text-gray-800">
+
+    <!-- Navbar -->
+    <nav class="bg-secondary text-white shadow-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex items-center gap-3">
+                    <img src="logo.jpeg" alt="Logo Martabak Mia-Mia" class="h-12 w-12 rounded-full object-cover border-2 border-primary bg-primary">
+                    <span class="font-bold text-2xl text-primary tracking-wider">MIA-MIA</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#beranda" class="hover:text-primary transition font-medium">Beranda</a>
+                    <a href="#tentang" class="hover:text-primary transition font-medium">Cerita Kami</a>
+                    <a href="#menu" class="hover:text-primary transition font-medium">Menu Utama</a>
+                    <a href="#lokasi" class="hover:text-primary transition font-medium">Lokasi</a>
+                </div>
+                <a href="https://wa.me/6285950887227" target="_blank" class="bg-green-600 hover:bg-green-700 text-white px-5 py-2.5 rounded-full font-semibold transition shadow-md flex items-center gap-2">
+                    <i class="fab fa-whatsapp text-xl"></i> <span class="hidden sm:inline">Pesan Sekarang</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="beranda" class="pt-32 pb-16 bg-primary min-h-screen flex items-center">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/2 space-y-6 text-center md:text-left">
+                <div class="inline-block bg-secondary text-primary px-5 py-1.5 rounded-full font-bold text-sm mb-2 shadow-sm">
+                    <i class="fas fa-certificate mr-1"></i> 100% Halal
+                </div>
+                <h1 class="text-5xl md:text-7xl font-extrabold text-secondary leading-tight tracking-tight">
+                    MARTABAK <br> MIA-MIA
+                </h1>
+                <h2 class="text-2xl md:text-3xl font-semibold text-secondary">Rasa yang bertahan, sejak 2015.</h2>
+                <p class="text-secondary text-lg leading-relaxed max-w-lg mx-auto md:mx-0 font-medium">
+                    Cita rasa autentik martabak manis & martabak telur yang konsisten dengan rasa dan kualitas, setia menemani.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 pt-6 justify-center md:justify-start">
+                    <a href="https://gofood.link/a/MViVkom" target="_blank" class="bg-red-600 hover:bg-red-700 text-white px-8 py-3.5 rounded-full font-bold shadow-xl transition flex items-center justify-center gap-2 transform hover:-translate-y-1">
+                        <i class="fas fa-motorcycle text-xl"></i> Pesan via GoFood
+                    </a>
+                    <a href="https://wa.me/6285950887227" target="_blank" class="bg-green-600 hover:bg-green-700 text-white px-8 py-3.5 rounded-full font-bold shadow-xl transition flex items-center justify-center gap-2 transform hover:-translate-y-1">
+                        <i class="fab fa-whatsapp text-xl"></i> WhatsApp Kami
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/2 relative mt-10 md:mt-0">
+                <img src="hero.jpeg" alt="Martabak Mia-Mia Special" class="rounded-3xl shadow-2xl border-8 border-white transform md:rotate-3 hover:rotate-0 transition duration-500 w-full object-cover h-[400px] md:h-[500px]">
+                <div class="absolute -bottom-6 -left-6 bg-white p-5 rounded-2xl shadow-2xl flex items-center gap-4 animate-bounce">
+                    <div class="bg-primary text-secondary rounded-full w-14 h-14 flex items-center justify-center font-black text-2xl">
+                        11
+                    </div>
+                    <div class="text-sm font-bold text-secondary uppercase tracking-wide">Tahun<br>Melayani</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tentang Kami -->
+    <section id="tentang" class="py-24 bg-amber-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-[2rem] shadow-2xl overflow-hidden flex flex-col md:flex-row border border-orange-100">
+                <div class="md:w-1/2 h-64 md:h-auto relative">
+                    <img src="gerobak.jpeg" alt="Gerobak Martabak Mia-Mia" class="absolute inset-0 w-full h-full object-cover">
+                </div>
+                <div class="md:w-1/2 p-10 md:p-20 flex flex-col justify-center space-y-6 bg-white relative">
+                    <div class="absolute top-0 right-0 p-8 opacity-10">
+                        <i class="fas fa-quote-right text-8xl text-primary"></i>
+                    </div>
+                    <h4 class="text-primary font-extrabold tracking-widest uppercase text-sm">Cerita Kami</h4>
+                    <h3 class="text-3xl md:text-4xl font-bold text-secondary leading-snug">Berawal dari gerobak sederhana, tumbuh bersama pelanggan selama 11 tahun.</h3>
+                    <p class="text-gray-600 leading-relaxed text-lg font-medium">
+                        Martabak mia-mia berdiri sejak tahun 2015 di jalan raya Suruh-Karanggede, tepatnya disamping MAN 1 Semarang, lokasinya tidak pernah berubah sejak awal memulai, selalu konsisten seperti rasa dan kualitasnya.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Utama -->
+    <section id="menu" class="py-24 bg-secondary text-white relative">
+        <div class="absolute top-0 left-0 w-full h-4 bg-primary"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 space-y-4">
+                <h2 class="text-4xl md:text-5xl font-black text-primary uppercase tracking-wide">Menu Pilihan Kami</h2>
+                <p class="text-gray-300 max-w-2xl mx-auto text-lg">Varian manis yang lumer di mulut dan varian telur gurih dengan daging sapi asli. Semuanya dibuat dari bahan berkualitas dan dijamin Halal.</p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12">
+                <!-- Martabak Manis -->
+                <div class="bg-white text-secondary rounded-3xl p-8 md:p-10 shadow-2xl flex flex-col">
+                    <div class="flex items-center gap-5 mb-8 border-b-2 border-orange-100 pb-5">
+                        <div class="bg-primary p-4 rounded-2xl shadow-inner"><i class="fas fa-cheese text-3xl text-secondary"></i></div>
+                        <h3 class="text-3xl font-bold">Martabak Manis</h3>
+                    </div>
+                    <img src="manis.jpeg" alt="Martabak Manis Keju" class="w-full h-56 object-cover rounded-2xl mb-8 shadow-md">
+                    
+                    <div class="flex-grow">
+                        <ul class="space-y-3.5 overflow-y-auto max-h-[450px] pr-4 custom-scrollbar text-[15px]">
+                            <li class="flex justify-between items-center border-b border-dashed border-gray-200 pb-2"><span>1. Ketan Hitam Susu</span> <span class="font-bold text-lg text-red-600">Rp 15.000</span></li>
+                            <li class="flex justify-between items-center border-b border-dashed border-gray-200 pb-2"><span>2. Coklat Susu</span> <span class="font-bold text-lg text-red-600">Rp 15.000</span></li>
+                            <li class="flex justify-between items-center border-b border-dashed border-gray-200 pb-2"><span>3. Pisang Susu</span> <span class="font-bold text-lg text-red-600">Rp 15.000</span></li>
+                            <li class="flex justify-between items-center border-b border-dashed border-gray-200 pb-2"><span>4. Coklat Kacang Susu</span> <span class="font-bold text-lg text-red-600">Rp 17.000</span></li>
+                            <li class="flex justify-between items-center border-b border-dashed border-gray-200 pb-2"><span>5. Pisang Coklat Susu</span> <span class="font-bold text-lg text-red-600">Rp 17.000</span></li>
+                            <li class="flex justify-between items-center border-b border-dashed border-gray-200 pb-2"><span>6. Ketan Coklat Susu</span> <span class="font-bold text-lg text-red-600">Rp 18.000</span></li>
+                            <li class="flex justify-between items-center border-b border-dashed border-gray-200 pb-2"><span>7. 1/2 Ketan 1/2 Coklat Susu</span> <span class="font-bold text-lg text-red-600">Rp 18.000</span></li>
+                            <li class="flex justify-between items-center border-b border-dashed border-gray-200 pb-2"><span>8. Kismis Coklat Susu</span> <span class="font-bold text-lg text-red-600">Rp 18.000</span></li>
+                            <li class="flex justify-between items-center border-b border-dashed border-gray-200 pb-2"><span>9. Keju Susu</span> <span class="font-bold text-lg text-red-600">Rp 18.000</span></li>
+                            <li class="flex justify-between items-center border-b border-dashed border-gray-200 pb-2"><span>10. 1/2 Kacang Coklat 1/2 Ketan</span> <span class="font-bold text-lg text-red-600">Rp 18.000</span></li>
+                            <li class="flex justify-between items-center border-b border-dashed border-gray-200 pb-2"><span>11. Keju Coklat Susu</span> <span class="font-bold text-lg text-red-600">Rp 19.000</span></li>
+                            <li class="flex justify-between items-center border-b border-dashed border-gray-200 pb-2"><span>12. Pisang Keju Susu</span> <span class="font-bold text-lg text-red-600">Rp 19.000</span></li>
+                            <li class="flex justify-between items-center border-b border-dashed border-gray-200 pb-2"><span>13. Keju Kismis Pisang Susu</span> <span class="font-bold text-lg text-red-600">Rp 20.000</span></li>
+                            <li class="flex justify-between items-center border-b border-dashed border-gray-200 pb-2"><span>14. Ketan Keju Susu</span> <span class="font-bold text-lg text-red-600">Rp 20.000</span></li>
+                            <li class="flex justify-between items-center border-b border-dashed border-gray-200 pb-2"><span>15. 1/2 Keju 1/2 Coklat Susu</span> <span class="font-bold text-lg text-red-600">Rp 20.000</span></li>
+                            <li class="flex justify-between items-center border-b border-dashed border-gray-200 pb-2"><span>16. Keju Coklat Pisang Kismis</span> <span class="font-bold text-lg text-red-600">Rp 22.000</span></li>
+                            <li class="flex justify-between items-center border-b border-dashed border-gray-200 pb-2"><span>17. Coklat Kacang Keju Susu</span> <span class="font-bold text-lg text-red-600">Rp 22.000</span></li>
+                            <li class="flex justify-between items-center border-b border-dashed border-gray-200 pb-2"><span>18. Dobel Keju Susu</span> <span class="font-bold text-lg text-red-600">Rp 24.000</span></li>
+                            <li class="flex justify-between items-center border-b border-dashed border-gray-200 pb-2"><span>19. Dobel Keju Coklat</span> <span class="font-bold text-lg text-red-600">Rp 25.000</span></li>
+                            <li class="flex justify-between items-center pb-2"><span>20. Dobel Keju Coklat Kacang</span> <span class="font-bold text-lg text-red-600">Rp 26.000</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Martabak Telur -->
+                <div class="bg-white text-secondary rounded-3xl p-8 md:p-10 shadow-2xl h-fit">
+                    <div class="flex items-center gap-5 mb-8 border-b-2 border-orange-100 pb-5">
+                        <div class="bg-primary p-4 rounded-2xl shadow-inner"><i class="fas fa-egg text-3xl text-secondary"></i></div>
+                        <h3 class="text-3xl font-bold">Martabak Telur</h3>
+                    </div>
+                    <img src="telur.jpeg" alt="Martabak Telur Daging Sapi" class="w-full h-56 object-cover rounded-2xl mb-6 shadow-md">
+                    
+                    <div class="bg-red-50 p-4 rounded-xl mb-6 border border-red-100">
+                        <p class="font-bold text-center text-red-700 uppercase tracking-widest text-sm"><i class="fas fa-fire-alt mr-2"></i>Spesial Daging Sapi</p>
+                    </div>
+                    
+                    <ul class="space-y-5">
+                        <li class="flex justify-between items-center border-b border-dashed border-gray-200 pb-4">
+                            <div>
+                                <span class="font-bold text-xl block text-secondary">1. Biasa</span>
+                                <span class="text-sm text-gray-500 font-medium">Telur 1 + Daging Sapi</span>
+                            </div>
+                            <span class="font-black text-xl text-red-600">Rp 18.000</span>
+                        </li>
+                        <li class="flex justify-between items-center border-b border-dashed border-gray-200 pb-4">
+                            <div>
+                                <span class="font-bold text-xl block text-secondary">2. Spesial</span>
+                                <span class="text-sm text-gray-500 font-medium">Telur 2 + Daging Sapi</span>
+                            </div>
+                            <span class="font-black text-xl text-red-600">Rp 23.000</span>
+                        </li>
+                        <li class="flex justify-between items-center border-b border-dashed border-gray-200 pb-4">
+                            <div>
+                                <span class="font-bold text-xl block text-secondary">3. Super</span>
+                                <span class="text-sm text-gray-500 font-medium">Telur 3 + Daging Sapi</span>
+                            </div>
+                            <span class="font-black text-xl text-red-600">Rp 28.000</span>
+                        </li>
+                        <li class="flex justify-between items-center border-b border-dashed border-gray-200 pb-4">
+                            <div>
+                                <span class="font-bold text-xl block text-secondary">4. Istimewa</span>
+                                <span class="text-sm text-gray-500 font-medium">Telur 4 + Daging Sapi</span>
+                            </div>
+                            <span class="font-black text-xl text-red-600">Rp 35.000</span>
+                        </li>
+                        <li class="flex justify-between items-center pb-2">
+                            <div>
+                                <span class="font-bold text-xl block text-secondary">5. Jumbo</span>
+                                <span class="text-sm text-gray-500 font-medium">Keju + Telur 4 + Daging Sapi</span>
+                            </div>
+                            <span class="font-black text-xl text-red-600">Rp 40.000</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lokasi -->
+    <section id="lokasi" class="py-24 bg-amber-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl md:text-5xl font-black text-secondary mb-12 uppercase">Temukan Kami</h2>
+            <div class="bg-white p-4 rounded-[2.5rem] shadow-2xl max-w-5xl mx-auto border border-orange-100">
+                <div class="bg-gray-200 rounded-[2rem] overflow-hidden flex items-center justify-center relative h-[400px]">
+                    <!-- Background Map Visual Placeholder -->
+                    <img src="gerobak.jpeg" class="absolute inset-0 w-full h-full object-cover opacity-40 blur-sm" alt="Map bg">
+                    
+                    <div class="relative z-10 p-10 bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl max-w-lg m-4 text-center transform hover:scale-105 transition duration-300">
+                        <div class="w-20 h-20 bg-red-100 text-red-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                            <i class="fas fa-map-marker-alt text-4xl"></i>
+                        </div>
+                        <h4 class="text-2xl font-bold text-secondary mb-3">Kedai Martabak Mia-Mia</h4>
+                        <p class="text-gray-600 mb-8 font-medium">Jl. Raya Karanggede - Suruh, Bawangan, Reksosari, Kec. Suruh, Kabupaten Semarang <br><span class="font-bold text-secondary mt-2 block">(Di Samping MAN 1 Semarang)</span></p>
+                        <a href="https://maps.app.goo.gl/h9uFuA9aDU589oeo9" target="_blank" class="inline-block bg-secondary text-primary px-10 py-4 rounded-full font-bold hover:bg-primary hover:text-secondary transition shadow-lg text-lg w-full md:w-auto">
+                            Buka di Google Maps
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-secondary text-white pt-20 pb-10 border-t-[12px] border-primary">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center md:items-start gap-12">
+            <div class="text-center md:text-left flex-1">
+                <div class="flex items-center justify-center md:justify-start gap-4 mb-6">
+                    <img src="logo.jpeg" alt="Logo" class="h-16 w-16 rounded-full border-2 border-primary bg-primary">
+                    <span class="font-black text-3xl text-primary tracking-wider">MIA-MIA</span>
+                </div>
+                <p class="text-gray-400 max-w-md font-medium text-lg mx-auto md:mx-0">Rasa yang bertahan, sejak 2015. Menyajikan martabak manis & telur kualitas terbaik dengan sertifikasi Halal untuk menemani momen spesialmu.</p>
+            </div>
+            
+            <div class="text-center md:text-right space-y-5 flex-1">
+                <h4 class="font-bold text-2xl text-primary mb-6">Hubungi Kami</h4>
+                <p class="text-gray-300 font-medium text-lg">WhatsApp: <br><a href="https://wa.me/6285950887227" class="hover:text-primary transition font-bold text-white text-xl block mt-2">+62 859-5088-7227 (Kafit)</a></p>
+                <div class="flex justify-center md:justify-end gap-5 mt-6">
+                    <a href="https://gofood.link/a/MViVkom" target="_blank" class="w-14 h-14 rounded-full bg-red-600 flex items-center justify-center hover:bg-red-700 transition shadow-lg hover:-translate-y-1 transform">
+                        <i class="fas fa-motorcycle text-white text-2xl"></i>
+                    </a>
+                    <a href="https://wa.me/6285950887227" target="_blank" class="w-14 h-14 rounded-full bg-green-600 flex items-center justify-center hover:bg-green-700 transition shadow-lg hover:-translate-y-1 transform">
+                        <i class="fab fa-whatsapp text-white text-2xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16 pt-8 border-t border-gray-700/50 text-center text-sm text-gray-500 font-medium">
+            &copy; 2026 Martabak Mia-Mia. Dibuat dengan cinta. Hak Cipta Dilindungi.
+        </div>
+    </footer>
+    
+    <style>
+        /* Custom Scrollbar for Menu List */
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 10px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #FACC15;
+            border-radius: 10px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: #eab308;
+        }
+    </style>
+</body>
+</html>
